@@ -6,7 +6,10 @@
 
 int main()
 {
-	std::string absoluteFilePath = "C:/Users/timot/source/repos/november_12_class/november_12_class/popular.txt";
+	/* Copied a GitHub repository for the file named popular.txt.
+	See: https://github.com/dolph/dictionary/blob/master/popular.txt */
+	std::string absoluteFilePath = 
+		"C:/Users/timot/source/repos/november_12_class/november_12_class/popular.txt";
 	std::vector<std::string> dictionaryWords = getAllDictionaryWords(absoluteFilePath);
 
 
