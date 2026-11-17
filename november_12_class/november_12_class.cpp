@@ -8,15 +8,26 @@ int main()
 {
 	/* Copied a GitHub repository for the file named popular.txt.
 	See: https://github.com/dolph/dictionary/blob/master/popular.txt */
-	std::string absoluteFilePath = 
-		"C:/Users/timot/source/repos/november_12_class/november_12_class/popular.txt";
-	std::vector<std::string> dictionaryWords = getAllDictionaryWords(absoluteFilePath);
 
+	//std::string aString = "albert";
+	//char aLetter = 'a';
+	//
+	//int positionToStartSearchAt = 1;
+	//size_t locationOFLetter = aString.find(aLetter, positionToStartSearchAt);
+	//std::cout << "In the string " << aString << std::endl;
+	//if (aString.find(aLetter) != std::string::npos)
+	//{
+	//	std::cout << "The letter " << aLetter << " is at index " << locationOFLetter << std::endl;
+	//}
+	//else
+	//{
+	//	std::cout << "The letter was not found " << locationOFLetter << std::endl;
+	//}
 
-	for (int index = 0; index < 10; index++)
-	{
-		std::cout << "The random word is: " << pickRandomWord(dictionaryWords) << std::endl;
-	}
+	playHangman();
 }
 
-/*Specification and implementation files are separate.*/
+/*
+Specification and implementation files are separate.
+An overload in a function is adding inputs.
+*/
